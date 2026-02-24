@@ -281,7 +281,7 @@ export default function LandingPage() {
               <div className="absolute top-0 right-8 transform -translate-y-1/2 bg-sage text-cream text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Most Popular</div>
               <h3 className="text-xl font-bold text-white mb-2">Growth</h3>
               <p className="text-stone-400 mb-6 flex-grow">Automate everything for your expanding portfolio.</p>
-              <div className="text-4xl font-display font-bold text-white mb-6">$15<span className="text-lg text-stone-400 font-normal">/mo</span></div>
+              <div className="text-4xl font-display font-bold text-white mb-6">$10<span className="text-lg text-stone-400 font-normal">/mo</span></div>
               <ul className="space-y-3 mb-8">
                 {['Up to 20 units', 'Automated rent collection', 'Auto PDF Invoices', 'Smart reminders'].map((f, i) => (
                   <li key={i} className="flex items-center gap-2 text-stone-300"><CheckCircle2 size={18} className="text-sage" /> {f}</li>
@@ -293,7 +293,7 @@ export default function LandingPage() {
             <div className="bg-white p-8 rounded-3xl border border-stone-200 shadow-sm flex flex-col">
               <h3 className="text-xl font-bold text-ink mb-2">Pro</h3>
               <p className="text-stone-500 mb-6 flex-grow">Advanced features for professional property managers.</p>
-              <div className="text-4xl font-display font-bold text-ink mb-6">$49<span className="text-lg text-stone-500 font-normal">/mo</span></div>
+              <div className="text-4xl font-display font-bold text-ink mb-6">$29<span className="text-lg text-stone-500 font-normal">/mo</span></div>
               <ul className="space-y-3 mb-8">
                 {['Unlimited units', 'Priority support', 'Custom reports', 'API access'].map((f, i) => (
                   <li key={i} className="flex items-center gap-2 text-stone-600"><CheckCircle2 size={18} className="text-sage" /> {f}</li>
