@@ -90,7 +90,7 @@ export default function LandingPage() {
         </p>
         <div className="flex flex-col sm:flex-row items-center gap-4 w-full justify-center">
           <a href="https://leaseease.vercel.app/register" className="w-full sm:w-auto text-center px-8 py-4 bg-ink text-cream rounded-full font-medium text-lg hover:bg-stone-800 transition-colors shadow-md flex items-center justify-center gap-2">
-            Get Started Free <ArrowRight size={18} />
+            Get Started For Free <ArrowRight size={18} />
           </a>
           <a href="https://leaseease.vercel.app/login" className="w-full sm:w-auto text-center px-8 py-4 bg-white text-ink border border-stone-200 rounded-full font-medium text-lg hover:bg-stone-50 transition-colors shadow-sm">
             Login
